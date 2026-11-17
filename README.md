@@ -1,7 +1,7 @@
 # FamilyShield Adult Domain Blocker
 **Linux Mint / Ubuntu / Debian (1-Command Install)** — Copy and paste into your terminal:
 ```bash
-curl -sL [https://github.com/CanadianLoyalist/updated-and-scraped-adult-domain-list/releases/download/AdultBlocker/familyshield-linux-x64.tar.gz](https://github.com/CanadianLoyalist/updated-and-scraped-adult-domain-list/releases/download/AdultBlocker/familyshield-linux-x64.tar.gz) | tar -xz && sudo ./familyshield --install-auto-update
+curl -sL "https://github.com/CanadianLoyalist/updated-and-scraped-adult-domain-list/releases/download/AdultBlocker/familyshield-linux-x64.tar.gz" | tar -xz && sudo ./familyshield --install-auto-update
 ```
 **Manual Update Command** (optional, after installing):
 ```bash
