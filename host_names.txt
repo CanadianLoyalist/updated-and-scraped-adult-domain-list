@@ -145283,6 +145283,8 @@
 0.0.0.0 www.filles-webcams.vip
 0.0.0.0 filles-webcams.xxx
 0.0.0.0 www.filles-webcams.xxx
+0.0.0.0 film-adult.video
+0.0.0.0 www.film-adult.video
 0.0.0.0 film-x-gratos.com
 0.0.0.0 www.film-x-gratos.com
 0.0.0.0 filmamateurporn.com
@@ -509145,6 +509147,8 @@
 0.0.0.0 www.xgirls.webcam
 0.0.0.0 xglamcore.com
 0.0.0.0 www.xglamcore.com
+0.0.0.0 xgluz.com
+0.0.0.0 www.xgluz.com
 0.0.0.0 xgroovy.com
 0.0.0.0 www.xgroovy.com
 0.0.0.0 xhamster.adult
@@ -511047,6 +511051,8 @@
 0.0.0.0 www.xmoviesyour.com
 0.0.0.0 xmovieszone.com
 0.0.0.0 www.xmovieszone.com
+0.0.0.0 xmovix.net
+0.0.0.0 www.xmovix.net
 0.0.0.0 xnalgas.com
 0.0.0.0 www.xnalgas.com
 0.0.0.0 xnprhl6qa.angelfire.com
