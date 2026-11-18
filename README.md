@@ -1,38 +1,56 @@
-# FamilyShield - Adult & Social Media Blocker
-Blocks **520,000+ adult websites, mirror domains, and directory aggregators** (plus an optional **900+ domain Social Media & Video Blocker**) at the OS level in `/etc/hosts`[cite: 10], locks down browser DNS-over-HTTPS (DoH) bypasses[cite: 10], and automatically checks this repository weekly for updates[cite: 10].
+FamilyShield Adult & Social Media Domain Blocker
 
-### Linux Mint / Ubuntu / Debian (1-Command Install)
-**Option 1: Block Adult Content ONLY (520,000+ adult & mirror domains)** — Copy and paste into your terminal:
-```bash
-curl -sL "[https://github.com/CanadianLoyalist/updated-and-scraped-adult-domain-list/releases/download/AdultBlocker/familyshield-linux-x64.tar.gz](https://github.com/CanadianLoyalist/updated-and-scraped-adult-domain-list/releases/download/AdultBlocker/familyshield-linux-x64.tar.gz)" | tar -xz && sudo ./familyshield --adult-only --install-auto-update
-```
-**Option 2: Block Adult Content + Social Media & Video Sites** (Meta/Facebook/Instagram/Threads/WhatsApp, X/Twitter, TikTok, YouTube, Reddit, Snapchat, Discord, Twitch, Kick, Pinterest, Tumblr, Telegram, etc.)[cite: 10]:
-```bash
-curl -sL "[https://github.com/CanadianLoyalist/updated-and-scraped-adult-domain-list/releases/download/AdultBlocker/familyshield-linux-x64.tar.gz](https://github.com/CanadianLoyalist/updated-and-scraped-adult-domain-list/releases/download/AdultBlocker/familyshield-linux-x64.tar.gz)" | tar -xz && sudo ./familyshield --with-social --install-auto-update
-```
-**Switch Modes or Force an Update Anytime After Installing:**
-```bash
-# Open the interactive [1 / 2 / 3] configuration menu:
-sudo familyshield
+Blocks 520,000+ adult websites, mirror domains, and directory aggregators (plus an optional Social Media & Video Platform Blocker) at the OS level via /etc/hosts (Linux) and C:\Windows\System32\drivers\etc\hosts (Windows). Automatically locks down browser DNS-over-HTTPS (DoH) bypasses via system policies/Windows Registry and checks this repository weekly for updates.
 
-# Enable Social Media & Video blocking alongside Adult blocking:
+🐧 Linux Mint / Ubuntu / Debian (1-Command Install)
+
+Copy and paste into your terminal:
+
+curl -sL "https://github.com/CanadianLoyalist/updated-and-scraped-adult-domain-list/releases/download/AdultBlocker/familyshield-linux-x64.tar.gz" | tar -xz && sudo ./familyshield --install-auto-update
+
+
+🪟 Windows 10 / 11 (1-Command Install)
+
+Open PowerShell and copy/paste (automatically requests Administrator privileges):
+
+irm "https://raw.githubusercontent.com/CanadianLoyalist/updated-and-scraped-adult-domain-list/main/familyshield.ps1" | iex
+
+
+🔄 Manual Update & Mode Switching Commands (Optional)
+
+During installation on Linux or Windows, an interactive menu lets you choose between Adult Content Only or Adult Content + Social Media & Video Sites (Meta/Facebook/Instagram/WhatsApp, X/Twitter, TikTok, YouTube, Reddit, Snapchat, Discord, Twitch, Kick, Pinterest, etc.).
+
+You can manually force an update or switch modes at any time:
+
+Linux:
+
+# Interactive Menu / Force Update
+sudo familyshield --force
+
+# Direct CLI Mode Switching
+sudo familyshield --adult-only
 sudo familyshield --with-social
-
-# Instantly remove Social Media blocking (keep Adult content blocked):
 sudo familyshield --remove-social
 
-# Manually force an update check from GitHub:
-sudo familyshield --force
-```
 
-### Android Setup (RethinkDNS / Blokada / AdAway)
-Paste either (or both) of these raw blocklist URLs into your Android DNS/VPN blocker's custom hosts list:
-* **Adult Content Blocklist (Required):**
-```text
-[https://raw.githubusercontent.com/CanadianLoyalist/updated-and-scraped-adult-domain-list/main/host_names.txt](https://raw.githubusercontent.com/CanadianLoyalist/updated-and-scraped-adult-domain-list/main/host_names.txt)
-```
-* **Social Media & Video Blocklist (Optional):**
-```text
-[https://raw.githubusercontent.com/CanadianLoyalist/updated-and-scraped-adult-domain-list/main/social_host_names.txt](https://raw.githubusercontent.com/CanadianLoyalist/updated-and-scraped-adult-domain-list/main/social_host_names.txt)
-```
-### Jesus is Lord, Pluck your eye, sin no more.
+Windows (PowerShell):
+
+# Interactive Menu / Force Update
+& "$env:ProgramData\FamilyShield\familyshield.ps1" -Force
+
+# Direct CLI Mode Switching
+& "$env:ProgramData\FamilyShield\familyshield.ps1" -AdultOnly
+& "$env:ProgramData\FamilyShield\familyshield.ps1" -WithSocial
+& "$env:ProgramData\FamilyShield\familyshield.ps1" -RemoveSocial
+
+
+📱 Android Blocklist URLs (for RethinkDNS, Blokada, AdAway)
+
+Adult Content Blocklist (520,000+ domains):
+
+https://raw.githubusercontent.com/CanadianLoyalist/updated-and-scraped-adult-domain-list/main/host_names.txt
+
+
+Social Media & Video Platforms Blocklist (Optional add-on):
+
+https://raw.githubusercontent.com/CanadianLoyalist/updated-and-scraped-adult-domain-list/main/social_host_names.txt
