@@ -35,3 +35,4 @@ Paste either (or both) of these raw blocklist URLs into your Android DNS/VPN blo
 ```text
 [https://raw.githubusercontent.com/CanadianLoyalist/updated-and-scraped-adult-domain-list/main/social_host_names.txt](https://raw.githubusercontent.com/CanadianLoyalist/updated-and-scraped-adult-domain-list/main/social_host_names.txt)
 ```
+### Jesus is Lord, Pluck your eye, sin no more.
